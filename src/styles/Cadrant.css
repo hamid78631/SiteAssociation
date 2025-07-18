@@ -1,0 +1,88 @@
+/* .first-cadrant{
+    border-radius: 10px ; 
+    background-color : white ; 
+    display : flex ; 
+    align-items: center;
+    margin-top : 0;
+    justify-content : center; 
+    height: 50%;
+    width: 50%;
+    gap: 20px;
+}
+.second-cadrant img{
+    width: 20%;
+} */
+
+.first-cadrant {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .first-cadrant {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .second-cadrant img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .third-cadrant {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .countdown div p {
+    font-size: 2rem;
+    color: #1d4ed8;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .countdown div span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .event-started {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .cadrant-description {
+    /* font-size: 1rem;
+    color: #444;
+    line-height: 1.6; */
+    padding: 15px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   border-left: 4px solid #2de6ff; /* Bordure verte à gauche pour un effet accentué */
+   margin: 0;
+   line-height: 1.6;
+   color: #333;
+   font-size: 1rem;
+   font-weight: 2rem;
+   text-align: justify;
+  }
+  

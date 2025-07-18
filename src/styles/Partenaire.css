@@ -1,0 +1,147 @@
+/* partenaire.css - Version finale avec effets originaux et taille augmentée */
+
+.box {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.carroussel-immersif {
+  position: relative;
+  width: 100%;
+  height: 350px; /* Taille augmentée (était 200px) */
+  overflow: hidden;
+  margin: 4rem 0; /* Marge augmentée */
+  perspective: 1000px;
+  background-color: white;
+}
+
+.carroussel-track {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  will-change: transform;
+}
+
+.logo-card {
+  flex: 0 0 auto;
+  width: 220px; /* Taille augmentée (était 150px) */
+  height: 160px; /* Taille augmentée (était 100px) */
+  margin: 0 20px; /* Marge augmentée */
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.logo-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(0%) contrast(1.1) brightness(1);
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  transform: translateZ(20px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.logo-hover-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.logo-reflection {
+  position: absolute;
+  bottom: -15px; /* Ajusté pour la nouvelle taille */
+  left: 5%;
+  width: 90%;
+  height: 20%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), transparent);
+  transform: rotateX(80deg) scaleY(0.5);
+  opacity: 0.3;
+  filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+/* Effets hover */
+.logo-card:hover {
+  transform: translateY(-12px) scale(1.06); /* Ajusté pour la nouvelle taille */
+}
+
+.logo-card:hover .logo-img {
+  filter: grayscale(0%) contrast(1.2) brightness(1.1);
+  box-shadow: 0 15px 30px rgb(0, 179, 255);
+}
+
+.logo-card:hover .logo-hover-effect {
+  opacity: 1;
+}
+
+.logo-card:hover .logo-reflection {
+  opacity: 0.6;
+  height: 30%;
+}
+
+/* Bords gris (gradients latéraux) - Version originale conservée */
+.carroussel-gradient-left,
+.carroussel-gradient-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 250px; /* Largeur augmentée (était 200px) */
+  pointer-events: none;
+  z-index: 2;
+}
+
+.carroussel-gradient-left {
+  left: 0;
+  background: linear-gradient(to right, rgba(10,20,30,1) 0%, transparent 100%);
+}
+
+.carroussel-gradient-right {
+  right: 0;
+  background: linear-gradient(to left, rgba(10,20,30,1) 0%, transparent 100%);
+}
+
+/* Effet de profondeur dynamique */
+@media (min-width: 768px) {
+  .logo-card:nth-child(3n) { transform: translateZ(15px); }
+  .logo-card:nth-child(3n+1) { transform: translateZ(35px); }
+  .logo-card:nth-child(3n+2) { transform: translateZ(25px); }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .carroussel-immersif {
+    height: 280px;
+  }
+  .logo-card {
+    width: 180px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carroussel-immersif {
+    height: 220px;
+  }
+  .logo-card {
+    width: 150px;
+    height: 110px;
+  }
+  .carroussel-gradient-left,
+  .carroussel-gradient-right {
+    width: 150px;
+  }
+}

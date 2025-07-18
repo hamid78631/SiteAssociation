@@ -1,0 +1,101 @@
+.equipe-page {
+    /* Appliquer box-sizing uniquement à l’intérieur de cette section */
+    box-sizing: border-box;
+  }
+  .equipe-page *,
+  .equipe-page *::before,
+  .equipe-page *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Scrollbar cachée */
+  .equipe-page .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .equipe-page .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Titres */
+  .equipe-page h2 {
+    color: #0b2381;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #4db1f9;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Boutons du slider */
+  .equipe-page .slider-button {
+    background-color: #4db1f9;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .equipe-page .slider-button:hover {
+    background-color: #0b2381;
+    transform: scale(1.05);
+  }
+  
+  /* Cartes membres */
+  .equipe-page .member-card {
+    background-color: #ebf6fb;
+    border: 2px solid #8eb6e4;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .equipe-page .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(64, 232, 251, 0.5);
+  }
+  
+  /* Image dans les cartes */
+  .equipe-page .member-card img {
+    border-radius: 10px;
+    border: 2px solid #4db1f9;
+    transition: transform 0.3s ease;
+  }
+  .equipe-page .member-card:hover img {
+    transform: scale(1.02);
+  }
+  
+  /* Infos sélectionnées */
+  .equipe-page .member-info {
+    background-color: #f0f4fa;
+    border-left: 6px solid #34d4f4;
+    color: #0b2381;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(80, 98, 143, 0.2);
+  }
+  .equipe-page .member-info h3 {
+    color: #0b2381;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .equipe-page .member-info p {
+    margin-top: 0.25rem;
+    color: #50628f;
+  }
+  
+  /* Slider container */
+  .equipe-page .slider-wrapper {
+    background: linear-gradient(90deg, #ebf6fb, #acacc9);
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  /* Carte sélectionnée */
+  .equipe-page .selected-card {
+    border: 2px solid #34d4f4 !important;
+    box-shadow: 0 0 10px rgba(52, 212, 244, 0.6);
+  }
+  

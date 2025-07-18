@@ -1,0 +1,15 @@
+.paragraphe p{
+    padding: 15px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   border-left: 4px solid #2de6ff; /* Bordure verte à gauche pour un effet accentué */
+   margin: 0;
+   line-height: 1.6;
+   color: #333;
+   font-size: 1rem;
+   font-weight: 2rem;
+   text-align: justify;
+}
+.paragraphe p:hover{
+    border-left: 4px solid #00a1b6;
+}

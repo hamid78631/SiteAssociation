@@ -1,0 +1,37 @@
+.bloc-container {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 20px 0;
+    margin-left: -260px;
+    margin-top : -100px;
+    transform: translateY(50px);
+}
+
+.bloc-profil {
+    background-color: white;
+    border-radius: 9px;
+    padding: 25px;
+    display: flex;
+    gap: 20px; /* Espacement entre les images */
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+   
+.bloc-profil img {
+    border-radius: 50%;
+    width: 130px;
+    max-width: 200px;
+    height: auto;
+    object-fit:cover;
+    aspect-ratio: 1/1; /* Garde un ratio carré */
+    transition: transform 0.3s ease;
+}
+
+.bloc-profil img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 80px rgba(0, 0, 0, 0.15);
+} 

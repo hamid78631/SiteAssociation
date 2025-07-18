@@ -1,0 +1,165 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "events": "Événements",
+    "actions": "Actions Réalisées",
+    "team": "Notre Équipe",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "home": {
+    "title": "Association Qualification des Jeunes",
+    "subtitle": "AQJ",
+    "quote": "\"Une Jeunesse socio-active\"",
+    "description": "L'AQJ,fondée le Samedi 25 Mai 2013; est une platforme née de la volontée de convergence des différents jeunes de la ville de Béni-Mellal, sur laquelle; on a pu développer une approche participative basée sur un travail rapproché, en assurant la mobilisation des multiples parties impliquées dans la gestion des affaires et des questions liées aux jeunes.",
+    "read_more": "Lire la suite"
+ },
+
+ "cadrant": {
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "eventStarted": "L'événement a commencé !",
+    "nextEvent": "Prochain événement :"
+  },
+  "stats": {
+    "members": "Membres",
+    "photos": "Photos",
+    "events": "Événements",
+    "partners": "Partenaires"
+  },
+   "detail": {
+    "title1": "Notre association",
+    "title2": "Association Qualification des Jeunes",
+    "paragraph1": "L’Association des Quartiers de la Jeunesse (AQJ) est une organisation marocaine à but non lucratif, engagée depuis [année de création] pour l’épanouissement, l’inclusion et la participation active des jeunes à la vie sociale, économique et culturelle. Portée par des jeunes pour les jeunes, notre association agit comme un catalyseur de talents, de solidarité et de citoyenneté responsable.",
+    "paragraph2": "Accompagner, former et mobiliser la jeunesse autour de projets porteurs de sens, afin de renforcer leur pouvoir d’agir et leur engagement dans le développement durable de leurs territoires.",
+    "button": "Lire la suite"
+  },
+  "partenaire":{
+    "title1":"NOS PARTENAIRES"
+  },
+  "contact": {
+   "title": "Contactez-nous",
+  "subtitle": "Une question ? Une proposition ? Écrivez-nous ici, nous vous répondrons rapidement !",
+  "name": "Votre nom complet",
+  "email": "email@exemple.com",
+  "message": "Décrivez votre demande en détail...",
+  "button": "Envoyer le message",
+  "sending": "Envoi en cours...",
+  "success": "Message envoyé avec succès !",
+  "errors": {
+    "nameRequired": "Le nom est requis",
+    "nameInvalid": "Nom invalide (minimum 2 caractères alphabétiques)",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "Format d'email invalide",
+    "messageRequired": "Le message est requis",
+    "messageShort": "Minimum 10 caractères requis",
+    "correctForm": "Veuillez corriger les erreurs dans le formulaire",
+    "invalidData": "Données du formulaire invalides",
+    "serverError": "Problème serveur - Veuillez réessayer plus tard",
+    "generic": "Erreur lors de l'envoi du message"
+  }
+  },
+  "footer": {
+    "follow_us": "Suivez-nous",
+    "company": "COMPAGNIE",
+    "about": "À propos",
+    "features": "Fonctionnalités",
+    "works": "Projets",
+    "career": "Carrière",
+    "help": "AIDE",
+    "customer_support": "Service client",
+    "delivery_details": "Détails de livraison",
+    "terms_conditions": "Conditions d'utilisation",
+    "privacy_policy": "Politique de confidentialité",
+    "resources": "RESSOURCES",
+    "free_ebooks": "E-books gratuits",
+    "dev_tutorial": "Tutoriels de développement",
+    "blog": "Blog pratique",
+    "youtube_playlist": "Playlist YouTube"
+  },
+  "about": {
+    "title": "Association Qualification des Jeunes (AQJ)",
+    "identityTitle": "Notre Identité",
+    "identityText1": "Fondée le 25 mai 2013, l'AQJ est une plateforme marocaine de jeunesse née de la volonté de convergence des aspirations locales des jeunes hommes et femmes de Béni-Mellal. Notre mission : « Une jeunesse associative ; créée par des jeunes et pour des jeunes. »",
+    "identityText2": "Nous développons une approche participative et progressive basée sur une collaboration étroite avec les jeunes, assurant leur participation active ainsi que celle des différentes parties prenantes impliquées dans les questions de jeunesse.",
+    "territoryTitle": "Territoire d’intervention",
+    "territoryText": "L’association opère principalement dans la région Béni-Mellal/Khénifra, mais peut également mener des actions à l’échelle nationale lorsque les conditions le permettent.",
+    "objectivesTitle": "Nos Objectifs Stratégiques",
+    "objectivesList": [
+      "Renforcer la démocratie citoyenne des jeunes",
+      "Ancrer les principes de citoyenneté, démocratie et volontariat",
+      "Sensibiliser aux droits civils, économiques, sociaux et culturels",
+      "Accompagner la participation des jeunes à la gestion des affaires publiques",
+      "Renforcer les capacités des jeunes pour une meilleure insertion",
+      "Promouvoir le développement durable"
+    ],
+    "domainsTitle": "Domaines d’intervention",
+    "youthWomenTitle": "Jeunes & Femmes",
+    "youthWomenList": [
+      "Renforcement des capacités (personnelles et professionnelles)",
+      "Soft skills & life-skills",
+      "Entrepreneuriat et leadership",
+      "Engagement dans la vie publique"
+    ],
+    "actionsTitle": "Actions Réalisées",
+    "show": "Afficher ▼",
+    "hide": "Masquer ▲",
+    "actionsList": [
+      "Programmes sur les politiques publiques de jeunesse",
+      "Formations pour l’inclusion économique",
+      "Programmes d’autonomisation des jeunes",
+      "Initiatives jeunesse et migration",
+      "Leadership féminin",
+      "Ateliers et formations",
+      "Débats et forums",
+      "Campagnes de sensibilisation",
+      "Échanges culturels",
+      "Publications audiovisuelles"
+    ],
+    "contactTitle": "Informations de contact",
+    "address": "Adresse",
+    "tel": "Téléphone/Fax",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+     "team": {
+    "title": "Équipe Dirigeante",
+    "members": [
+      {
+        "name": "Mme. Oumayma OUGUENNOUS",
+        "role": "Présidente",
+        "email": "Email: omaymaouguenouss@gmail.com",
+        "phone": "Tél: 00 212 7 06 05 87 80"
+      },
+      {
+        "name": "Mr. Rachid EL HABIB",
+        "role": "Directeur Exécutif",
+        "email": "Email: Rachidhabib10@gmail.com",
+        "phone": "Tél: 00 212 6 59 23 57 01"
+      },
+      {
+        "name": "Mr. Youssef LOUTA",
+        "role": "Chargé des Relations Publiques et Partenariats",
+        "email": "Email: Youssef.LOUTA@gmail.com",
+        "phone": "Tél: 00 212 6 99 28 37 04"
+      }
+    ]
+  }
+},
+"eventsPage": {
+  "title": "Nos événements",
+  "subtitle": "Découvrez nos prochains événements",
+  "altText": "Événement du {{date}}"
+},
+"actions": {
+  "title": "Nos actions réalisées",
+  "subtitle": "Découvrez nos actions passées et leur impact"
+}
+
+
+
+   
+
+}

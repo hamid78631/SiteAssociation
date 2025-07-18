@@ -1,0 +1,160 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "actions": "Actions Done",
+    "team": "Our Team",
+    "contact": "Contact Us",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Youth Qualification Association",
+    "subtitle": "AQJ",
+    "quote": "\"A socio-active youth\"",
+    "description": "The AQJ, founded on Saturday, May 25, 2013; is a platform born from the desire to convergence of the different young people of the city of Béni-Mellal, on which; we have was able to develop a participatory approach based on close work, by ensuring the mobilisation of the multiple parties involved in the management of business and issues related to young people.",
+    "read_more": "Read more"
+  },
+  "cadrant": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "eventStarted": "The event has started!",
+    "nextEvent": "Next event:"
+  },
+  "stats": {
+    "members": "Members",
+    "photos": "Photos",
+    "events": "Events",
+    "partners": "Partners"
+  },
+   "detail": {
+    "title1": "Our Association",
+    "title2": "Youth Qualification Association",
+    "paragraph1": "The Youth Neighborhoods Association (AQJ) is a Moroccan non-profit organization, committed since [year of foundation] to the development, inclusion, and active participation of young people in social, economic, and cultural life. Led by youth for youth, our association acts as a catalyst for talent, solidarity, and responsible citizenship.",
+    "paragraph2": "To support, train, and mobilize youth around meaningful projects in order to strengthen their ability to take action and engage in the sustainable development of their communities.",
+    "button": "Read more"
+  },
+  "partenaire":{
+    "title1":"OUR PARTNERS"
+  },
+ "contact": {
+    "title": "Contact Us",
+    "subtitle": "A question? A proposal? Write to us here.",
+    "name": "Your full name",
+    "email": "email@example.com",
+    "message": "Describe your request in detail...",
+    "button": "Send",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "errors": {
+      "nameRequired": "Name is required",
+      "nameInvalid": "Invalid name (minimum 2 alphabetic characters)",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "messageRequired": "Message is required",
+      "messageTooShort": "Minimum 10 characters required",
+      "formInvalid": "Please fix the errors in the form",
+      "sendFailed": "Failed to send the message"
+    }
+  },
+  "footer": {
+    "follow_us": "Follow us",
+    "company": "COMPANY",
+    "about": "About",
+    "features": "Features",
+    "works": "Works",
+    "career": "Career",
+    "help": "HELP",
+    "customer_support": "Customer Support",
+    "delivery_details": "Delivery Details",
+    "terms_conditions": "Terms & Conditions",
+    "privacy_policy": "Privacy Policy",
+    "resources": "RESOURCES",
+    "free_ebooks": "Free e-books",
+    "dev_tutorial": "Development Tutorial",
+    "blog": "How-to Blog",
+    "youtube_playlist": "YouTube Playlist"
+  },
+ "about": {
+    "title": "Youth Qualification Association (AQJ)",
+    "identityTitle": "Our Identity",
+    "identityText1": "Founded on May 25, 2013, AQJ is a Moroccan youth platform born from the convergence of local aspirations of young men and women from Béni-Mellal. Our mission: \"An associative youth; created by youth and for youth.\"",
+    "identityText2": "We develop a participatory and progressive approach based on close collaboration with youth, ensuring their active participation along with that of various stakeholders involved in youth issues.",
+    "territoryTitle": "Intervention Territory",
+    "territoryText": "The association mainly operates in the Béni-Mellal/Khénifra region, but can carry out activities at the national level when opportunities arise.",
+    "objectivesTitle": "Our Strategic Objectives",
+    "objectivesList": [
+      "Strengthen civic democracy among youth",
+      "Embed the principles of citizenship, democracy, and volunteerism",
+      "Raise awareness of civil, economic, social, and cultural rights",
+      "Support youth participation in public affairs",
+      "Strengthen youth capacities for better integration",
+      "Promote sustainable development"
+    ],
+    "domainsTitle": "Areas of Intervention",
+    "youthWomenTitle": "Youth & Women",
+    "youthWomenList": [
+      "Capacity building (personal and professional)",
+      "Soft skills & life-skills",
+      "Entrepreneurship and leadership",
+      "Engagement in public life"
+    ],
+    "actionsTitle": "Actions Carried Out",
+    "show": "Show ▼",
+    "hide": "Hide ▲",
+    "actionsList": [
+      "Programs on youth public policies",
+      "Training for economic inclusion",
+      "Youth empowerment programs",
+      "Youth and migration initiatives",
+      "Women's leadership",
+      "Workshops and training",
+      "Debates and forums",
+      "Awareness campaigns",
+      "Cultural exchanges",
+      "Audiovisual publications"
+    ],
+    "contactTitle": "Contact Information",
+    "address": "Address",
+    "tel": "Phone/Fax",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "team": {
+    "title": "Leadership Team",
+    "members": [
+      {
+        "name": "Ms. Oumayma OUGUENNOUS",
+        "role": "President",
+        "email": "Email: omaymaouguenouss@gmail.com",
+        "phone": "Phone: +212 7 06 05 87 80"
+      },
+      {
+        "name": "Mr. Rachid EL HABIB",
+        "role": "Executive Director",
+        "email": "Email: Rachidhabib10@gmail.com",
+        "phone": "Phone: +212 6 59 23 57 01"
+      },
+      {
+        "name": "Mr. Youssef LOUTA",
+        "role": "Public Relations and Partnerships Officer",
+        "email": "Email: Youssef.LOUTA@gmail.com",
+        "phone": "Phone: +212 6 99 28 37 04"
+      }
+    ]
+  }
+},
+"eventsPage": {
+  "title": "Our Events",
+  "subtitle": "Discover our upcoming events",
+  "altText": "Event on {{date}}"
+},
+"actions": {
+  "title": "Our Completed Actions",
+  "subtitle": "Discover our past actions and their impact"
+}
+
+
+
+}

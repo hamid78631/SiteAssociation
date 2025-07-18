@@ -1,0 +1,564 @@
+//  /*{/* BLOC SUPERPOSÉ */}
+//         <div className="absolute top-[75%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[80%] bg-white rounded-2xl shadow-xl p-6 md:p-10 z-10">
+//           <h2 className="text-2xl md:text-3xl font-bold text-blue-700 text-center mb-6">Prochain événement</h2>
+
+//           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
+//             {/* IMAGE + TEXTE */}
+//             <div className="max-w-md text-center md:text-left">
+//             <img
+//              src="/event.jpg"
+//              alt="Événement à venir"
+//              className="rounded-lg shadow-md w-full h-56 object-cover mb-4"
+//             />
+//             <p className="text-gray-700 text-base md:text-lg">
+//                 Rejoignez-nous pour notre événement annuel où jeunes et acteurs associatifs se rassemblent
+//                 pour discuter, partager et construire ensemble un avenir meilleur. Ateliers, débats, musique,
+//                 et bien plus encore vous attendent.
+//             </p>
+//             </div>
+//             {/* COMPTE À REBOURS */}
+//             {timeLeft.days !== undefined ? (
+//               <div className="flex gap-4 text-lg md:text-2xl font-semibold text-gray-700">
+//                 <div className="text-center">
+//                   <span className="block text-3xl md:text-4xl text-blue-600">{timeLeft.days}</span>
+//                   <span>Jours</span>
+//                 </div>
+//                 <div className="text-center">
+//                   <span className="block text-3xl md:text-4xl text-blue-600">{timeLeft.hours}</span>
+//                   <span>Heures</span>
+//                 </div>
+//                 <div className="text-center">
+//                   <span className="block text-3xl md:text-4xl text-blue-600">{timeLeft.minutes}</span>
+//                   <span>Min</span>
+//                 </div>
+//                 <div className="text-center">
+//                   <span className="block text-3xl md:text-4xl text-blue-600">{timeLeft.seconds}</span>
+//                   <span>Sec</span>
+//                 </div>
+//               </div>
+//             ) : (
+//               <p className="text-gray-500 text-lg">L’événement a commencé !</p>
+//             )}
+//           </div>
+//         </div>
+
+
+//         import '../styles/Cadrant.css'
+
+// function Cadrant (){
+//     return <div className="first-cadrant">
+//         <section className="second-cadrant">
+//             <img src="src/assets/img3.jpeg" alt="image3" />
+//         </section>
+//         <section className="tirth-cadrant">
+//             <div> 
+//                 <li> Days</li>
+//                 <li> Hours</li>
+//                 <li> Min</li>
+//                 <li> Sec</li>
+//             </div>
+//             <div>
+//                 <li> 0 </li>
+//                 <li> 0 </li>
+//                 <li> 0 </li>
+//                 <li> 0 </li>
+//             </div>
+//             <br/>
+            
+//             <div> 
+                
+//                 <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+//                     Deserunt eaque unde, nihil vero libero, adipisci repellat veritatis vel 
+//                     voluptas temporibus rerum laboriosam, modi est! Tenetur, dolore ratione! Dolores, neque iure!</p>
+//             </div>
+//         </section>
+//     </div>
+// }
+
+// export default Cadrant
+
+
+
+// /* Cadrant.css */
+
+// .first-cadrant {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    margin: 0 auto;
+//    max-width: 1000px;
+//    width: 100%;
+//    padding: 20px;
+//    gap: 30px;
+//    background-color: white; /* Fond blanc ajouté */
+//    border-radius: 10px; /* Optionnel: pour des coins arrondis */
+//    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Ombre légère pour le relief */
+// }
+
+// .second-cadrant {
+//    flex: 1;
+// }
+
+// .second-cadrant img {
+//    width: 100%;
+//    height: auto;
+//    border-radius: 10px;
+//    object-fit: cover; /* Pour que l'image conserve ses proportions */
+// }
+
+// .tirth-cadrant {
+//    flex: 1;
+//    display: flex;
+//    flex-direction: column;
+//    gap: 20px;
+//    background-color: white; /* Fond blanc pour cette section aussi */
+//    padding: 15px; /* Espacement intérieur */
+// }
+
+// .tirth-cadrant > div {
+//    display: flex;
+//    justify-content: space-between;
+//    gap: 15px;
+// }
+
+// .tirth-cadrant li {
+//    list-style-type: none;
+//    font-size: 1.1rem;
+//    text-align: center;
+//    padding: 8px 12px;
+//    margin: 0;
+// }
+
+// /* Style pour les labels */
+// .tirth-cadrant > div:first-child li {
+//    font-weight: 600;
+//    color: #555;
+// }
+
+// /* Style pour les valeurs */
+// .tirth-cadrant > div:last-child li {
+//    font-size: 1.4rem;
+//    font-weight: 700;
+//    color: #222;
+//    background-color: #f8f8f8;
+//    border-radius: 6px;
+//    min-width: 50px;
+// }
+
+// /* Responsive design */
+// @media (max-width: 768px) {
+//    .first-cadrant {
+//        flex-direction: column;
+//        padding: 15px;
+//    }
+   
+//    .second-cadrant {
+//        margin-bottom: 20px;
+//    }
+   
+//    .tirth-cadrant > div {
+//        justify-content: space-around;
+//    }
+// }
+// /* Style pour le dernier div contenant le paragraphe */
+// .tirth-cadrant > div:last-of-type {
+   
+//    padding: 15px;
+//    background-color: #f9f9f9;
+//    border-radius: 8px;
+//    border-left: 4px solid #4ca3af; /* Bordure verte à gauche pour un effet accentué */
+// }
+
+// .tirth-cadrant p {
+//    margin: 0;
+//    line-height: 1.6;
+//    color: #333;
+//    font-size: 1rem;
+//    font-weight: 2rem;
+//    text-align: justify;
+// }
+
+
+
+
+
+
+
+
+
+
+
+// import Bloc1 from "./Bloc/Bloc1"
+
+// function Compartiment() {
+//     const style = {
+//         color : "#2de6ff",
+//         marginLeft : "9%",
+//         paddingTop: "5%",
+//         height : "70px",
+//         fontWeight: "800",
+//         fontSize : "40px"
+//     }
+
+//     <!-- return <div className="bg-black mt-20 h-200">
+//         <h1 style={style}>Our partners</h1> <br /><br /><br /><br /><br />
+//         <Bloc1 /><br /><br /><br /><br />
+//         <p style={{color : "#2de6ff" ,maxWidth : "1000px" , width:"40%", marginLeft : "9%",fontWeight: "600"}}>
+//             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod tempore illum asperiores 
+//             itaque ab inventore, nam et eligendi nostrum beatae, enim vitae eum illo unde natus velit dolorem cumque.
+//         </p>
+//         <button className='bg-cyan-300 text-white p-4 pl-10 pr-10 rounded-2xl hover:bg-white hover:text-cyan-300 duration-500 mt-[50px] ml-28 '>Read more</button>
+//     </div>
+// }
+// export default Compartiment -->
+
+// import { useEffect, useRef } from 'react';
+// import '../../styles/partenaire.css';
+
+// function Partenaire() {
+//   const logos = Array.from({ length: 22 }, (_, i) => i + 1);
+//   const trackRef = useRef(null);
+//   const requestRef = useRef();
+//   const speed = 0.5; // Vitesse de défilement
+//   const latency = 30; // Temps de latence en ms
+
+//   useEffect(() => {
+//     let progress = 0;
+//     let lastTime = null;
+
+//     const animate = (timestamp) => {
+//       if (!lastTime) lastTime = timestamp;
+//       const deltaTime = timestamp - lastTime;
+      
+//       if (deltaTime > latency) {
+//         progress += speed;
+//         if (trackRef.current) {
+//           trackRef.current.style.transform = `translateX(-${progress}px)`;
+          
+//           // Réinitialisation en douceur
+//           if (progress > trackRef.current.scrollWidth / 2) {
+//             progress = 0;
+//           }
+//         }
+//         lastTime = timestamp;
+//       }
+    
+//       requestRef.current = requestAnimationFrame(animate);
+//     };
+
+//     requestRef.current = requestAnimationFrame(animate);
+
+//     return () => cancelAnimationFrame(requestRef.current);
+//   }, []);
+
+//   return (
+//     <div className="carroussel-immersif">
+//       <div className="carroussel-track" ref={trackRef}>
+//         {[...logos, ...logos].map((logoNum, index) => ( // Duplication pour effet infini
+//           <div key={index} className="logo-card">
+//             <div className="logo-wrapper">
+//               <img 
+//                 src={`/assets/logo${logoNum}.jpeg`} 
+//                 alt={`Partner ${logoNum}`}
+//                 className="logo-img"
+//                 loading="lazy"
+//               />
+//               <div className="logo-hover-effect"></div>
+//               <div className="logo-reflection"></div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//       <div className="carroussel-gradient-left"></div>
+//       <div className="carroussel-gradient-right"></div>
+//     </div>
+//   );
+// }
+
+// export default Partenaire; -->
+//  .carroussel-immersif {
+//   position: relative;
+//   width: 100%;
+//   height: 200px;
+//   overflow: hidden;
+//   margin: 3rem 0;
+//   perspective: 1000px;
+// }
+
+// .carroussel-track {
+//   display: flex;
+//   height: 100%;
+//   align-items: center;
+//   will-change: transform;
+// }
+
+// .logo-card {
+//   flex: 0 0 auto;
+//   width: 150px;
+//   height: 100px;
+//   margin: 0 15px;
+//   transform-style: preserve-3d;
+//   transition: transform 0.5s ease;
+// }
+
+// .logo-wrapper {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   transform-style: preserve-3d;
+//   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+// }
+
+// .logo-img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: contain;
+//   filter: grayscale(20%) contrast(1.1) brightness(0.9);
+//   border-radius: 8px;
+//   transition: all 0.4s ease;
+//   transform: translateZ(20px);
+//   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+// }
+
+// .logo-hover-effect {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: linear-gradient(135deg, rgba(0,180,255,0.3) 0%, rgba(0,80,120,0.1) 100%);
+//   opacity: 0;
+//   border-radius: 8px;
+//   transition: opacity 0.3s ease;
+// }
+
+// .logo-reflection {
+//   position: absolute;
+//   bottom: -10px;
+//   left: 5%;
+//   width: 90%;
+//   height: 20%;
+//   background: linear-gradient(to bottom, rgba(255,255,255,0.3), transparent);
+//   transform: rotateX(80deg) scaleY(0.5);
+//   opacity: 0.3;
+//   filter: blur(5px);
+//   transition: all 0.3s ease;
+// }
+
+// .logo-card:hover {
+//   transform: translateY(-10px) scale(1.05);
+// }
+
+// .logo-card:hover .logo-img {
+//   filter: grayscale(0%) contrast(1.2) brightness(1.1);
+//   box-shadow: 0 15px 40px rgba(0, 180, 255, 0.4);
+// }
+
+// .logo-card:hover .logo-hover-effect {
+//   opacity: 1;
+// }
+
+// .logo-card:hover .logo-reflection {
+//   opacity: 0.6;
+//   height: 30%;
+// }
+
+// .carroussel-gradient-left,
+// .carroussel-gradient-right {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   width: 200px;
+//   pointer-events: none;
+//   z-index: 2;
+// }
+
+// .carroussel-gradient-left {
+//   left: 0;
+//   background: linear-gradient(to right, rgba(10,20,30,1) 0%, transparent 100%);
+// }
+
+// .carroussel-gradient-right {
+//   right: 0;
+//   background: linear-gradient(to left, rgba(10,20,30,1) 0%, transparent 100%);
+// }
+
+// /* Effet de profondeur dynamique */
+// @media (min-width: 768px) {
+//   .logo-card:nth-child(3n) { transform: translateZ(10px); }
+//   .logo-card:nth-child(3n+1) { transform: translateZ(30px); }
+//   .logo-card:nth-child(3n+2) { transform: translateZ(20px); }
+// } -->
+
+// <div className="box">
+//         <div className="p-6 max-w-3xl mx-auto bg-white rounded-2xl ">
+//         <h2 className="text-2xl font-bold text-cyan-300">Contactez-nous</h2>
+//         <p className="mt-2 text-gray-600 mb-4">
+//           Une question ? Une proposition ? Écrivez-nous ici !
+//         </p>
+//         <form className="space-y-4">
+//           <input
+//             type="text"
+//             placeholder="Nom"
+//             className="w-full border border-gray-300 px-4 py-2 rounded-md"
+//           />
+//           <input
+//             type="email"
+//             placeholder="Email"
+//             className="w-full border border-gray-300 px-4 py-2 rounded-md"
+//           />
+//           <textarea
+//             placeholder="Votre message"
+//             rows="4"
+//             className="w-full border border-gray-300 px-4 py-2 rounded-md"
+//           ></textarea>
+//           <button
+//             type="submit"
+//             className="bg-cyan-300 text-white px-6 py-2 rounded hover:bg-blue-700"
+//           >
+//             Envoyer
+//           </button>
+//         </form>
+//       </div>
+//       </div>
+
+      
+
+// export default function Contact() {
+//     return (
+//       <div className="box">
+//   <div className="p-8 max-w-2xl mx-auto bg-white rounded-2xl shadow-xl border border-gray-200">
+//     <h2 className="text-3xl font-bold text-cyan-300 mb-2">Contactez-nous</h2>
+//     <p className="text-gray-500 mb-6">
+//       Une question ? Une proposition ? Écrivez-nous ici, nous vous répondrons rapidement !
+//     </p>
+//     <form className="space-y-5">
+//       <input
+//         type="text"
+//         placeholder="Votre nom"
+//         className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+//       />
+//       <input
+//         type="email"
+//         placeholder="Votre email"
+//         className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+//       />
+//       <textarea
+//         placeholder="Votre message"
+//         rows="4"
+//         className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+//       ></textarea>
+//       <button
+//         type="submit"
+//         className="flex items-center justify-center gap-2 bg-cyan-300 text-white px-6 py-3 rounded-lg hover:bg-cyan-500 transition-colors duration-300 shadow-md hover:shadow-lg"
+//       >
+//         <svg
+//           xmlns="http://www.w3.org/2000/svg"
+//           className="h-5 w-5"
+//           fill="none"
+//           viewBox="0 0 24 24"
+//           stroke="currentColor"
+//         >
+//           <path
+//             strokeLinecap="round"
+//             strokeLinejoin="round"
+//             strokeWidth={2}
+//             d="M14 5l7 7m0 0l-7 7m7-7H3"
+//           />
+//         </svg>
+//         Envoyer
+//       </button>
+//     </form>
+//   </div>
+// </div>
+
+//     )
+//   }
+
+
+
+//   .child-image{
+//     position: relative; /* Nécessaire pour le positionnement absolu des enfants */
+//     width: 70%;
+// }
+// .child-image1 {
+//     border-radius: 25px;
+//     width : 90%; 
+//     height: auto;
+//     border: 2px solid rgb(230, 225, 225); /*Ajoutez une bordure si besoin*/
+
+// }
+// .child-image2 {
+//     position : absolute;
+//     top: 0; 
+//     left: 0;
+//     border: 2px solid rgb(230, 225, 225); /*Ajoutez une bordure si besoin*/
+//     border-radius: 25px;
+//     margin: 130px;
+//     width : 80%;
+//     /* padding-top : 110px ;  */
+//     /* padding-left : 110px ;  */
+//     /* width: 150%; */
+//     height: auto;
+// }
+// .child-image3{
+//     position : absolute;
+//     top: 0; 
+//     left: 0;
+//     border: 2px solid rgb(230, 225, 225); /*Ajoutez une bordure si besoin*/
+//     border-radius: 25px;
+//     margin: 250px;
+//     width : 80%;
+//     margin-top : 300px;
+//     /* padding-top : 110px ;  */
+//     /* padding-left : 110px ;  */
+//     /* width: 150%; */
+//     height: auto;
+// }
+
+<div className="p-8 max-w-2xl mx-auto bg-white rounded-2xl shadow-xl border border-white">
+<h2 className="text-3xl font-bold text-cyan-300 mb-2">Contactez-nous</h2>
+<p className="text-gray-500 mb-6">
+  Une question ? Une proposition ? Écrivez-nous ici, nous vous répondrons rapidement !
+</p>
+<form className="space-y-5" onSubmit={onSubmit}> 
+  <input
+  name="nom"
+    type="text"
+    placeholder="Votre nom"
+    className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+  required/>
+  <input
+  name="email"
+    type="email"
+    placeholder="Votre email"
+    className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+    required/>
+  <textarea
+  name='message'
+    placeholder="Votre message"
+    rows="4"
+    className="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-300 transition-all duration-300"
+    required></textarea>
+  <button
+    type="submit"
+    className="flex items-center justify-center gap-2 bg-cyan-300 text-white px-6 py-3 rounded-lg hover:bg-cyan-500 transition-colors duration-300 shadow-md hover:shadow-lg"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-5 w-5"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M14 5l7 7m0 0l-7 7m7-7H3"
+      />
+    </svg>
+    Envoyer
+  </button>
+</form>
+</div>
