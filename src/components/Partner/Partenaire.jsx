@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import '../../styles/partenaire.css';
+import '../../styles/Partenaire.css';
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useTranslation } from 'react-i18next';
