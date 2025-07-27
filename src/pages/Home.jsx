@@ -8,7 +8,6 @@ import Compartiment from '../components/Compartiment/Compartiment'
 import Stats from '../components/BarStats/Stats'
 import Contact from './Contact'
 import Footer from '../components/footer/Footer'
-import Partenaire from '../components/Partner/Partenaire'
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { events } from '../variables/events'
