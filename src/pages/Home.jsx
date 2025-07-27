@@ -110,12 +110,7 @@ export default function Home() {
           
        <div><Arrierre events={events}/></div>
        <Stats/> <br />
-        <div> <Element2 /></div>  
-
-        
-        <div className="w-full">
-          <Partenaire />
-        </div>
+        <div> <Element2/></div>  
 
         <div className="bg-gray-400"><Contact/></div>
         <div className="bg-gradient-to-b from-cyan-300 to-blue-900 w-full">
