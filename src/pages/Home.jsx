@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Arrierre from '../components/Arrierre'
 import Element2 from '../components/Element2'
-import Compartiment from '../components/Compartiment/Compartiment'
 import Stats from '../components/BarStats/Stats'
 import Contact from './Contact'
 import Footer from '../components/footer/Footer'

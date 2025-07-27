@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import '../styles/Cadrant.css';
 import { useTranslation } from 'react-i18next';
-
+import img from '../assets/img3.jpeg'
 function Cadrant({ events }) {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language;
@@ -48,7 +48,7 @@ function Cadrant({ events }) {
     <div className="first-cadrant">
       {/* Image */}
       <section className="second-cadrant">
-        <img src="src/assets/img3.jpeg" alt="image3" />
+        <img src={img} alt="image3" />
       </section>
 
       {/* Texte et compte à rebours */}
