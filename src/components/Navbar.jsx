@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next';
-
+import logo from '../assets/aqj.png'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [showLangMenu, setShowLangMenu] = useState(false);
@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo de l’association */}
        <div className="flex items-center">
-         <img src="src/assets/aqj.png" alt="Logo" className="h-20 w-auto mr-3 mt-2" />
+         <img src={logo} alt="Logo" className="h-20 w-auto mr-3 mt-2" />
          <span className="text-xl flex flex-col leading-tight">
          <span className='text-blue-600 font-bold'>جمعية تأهيل الشباب</span>
          <span className='text-cyan-300 font-bold'>ⵜⴰⵎⵙⵎⵓⵏⵜ ⵓⵙⵖⵔⵜ ⵏ ⵜⵉⵄⵄⵓⵔⵎⴰ</span>
