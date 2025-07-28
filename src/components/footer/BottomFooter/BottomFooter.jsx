@@ -1,10 +1,10 @@
 import "../../../styles/BottomFooter.css";
 import { useTranslation } from "react-i18next";
 import whatsapp from '../../../assets/whatsapp.png'
-import facebook from '../../../assets/facebook.png'
+// import facebook from '../../../assets/facebook.png'
 import linkedin from '../../../assets/linkedin.png'
 import instagram from '../../../assets/instagram.png'
-// import youtube from '../../../assets/youtube.png'
+import youtube from '../../../assets/youtube.png'
 import twitter from '../../../assets/twitter.png'
 
 function BottomFooter() {
@@ -18,9 +18,9 @@ function BottomFooter() {
           <a href='https://wa.me/212691688503'>
             <img src={whatsapp} alt="whatsapp" className="social-icon" />
           </a>
-          <a href="https://www.facebook.com/AQJ.BM/">
+          {/* <a href="https://www.facebook.com/AQJ.BM/">
             <img src={facebook} alt="Facebook" className="social-icon" />
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com/">
             <img src={linkedin} alt="LinkedIn" className="social-icon" />
           </a>
@@ -28,9 +28,9 @@ function BottomFooter() {
             <img src={instagram} alt="Instagram" className="social-icon" />
           </a>
           
-          {/* <a href="https://www.youtube.com/@AQJ-BM">
+          <a href="https://www.youtube.com/@AQJ-BM">
             <img src={youtube} alt="YouTube" className="social-icon" />
-          </a> */}
+          </a>
           <a href="https://x.com/">
             <img src={twitter} alt="Twitter" className="social-icon" />
           </a>
