@@ -2,7 +2,7 @@ import "../../../styles/BottomFooter.css";
 import { useTranslation } from "react-i18next";
 import whatsapp from '../../../assets/whatsapp.png'
 // import facebook from '../../../assets/facebook.png'
-import linkedin from '../../../assets/linkedin.png'
+import linkedin from '../../../assets/Linkedin.png'
 import instagram from '../../../assets/instagram.png'
 import youtube from '../../../assets/youtube.png'
 import twitter from '../../../assets/twitter.png'
