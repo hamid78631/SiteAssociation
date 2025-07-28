@@ -28,9 +28,9 @@ function BottomFooter() {
             <img src={instagram} alt="Instagram" className="social-icon" />
           </a>
           
-          <a href="https://www.youtube.com/@AQJ-BM">
+          {/* <a href="https://www.youtube.com/@AQJ-BM">
             <img src={youtube} alt="YouTube" className="social-icon" />
-          </a>
+          </a> */}
           <a href="https://x.com/">
             <img src={twitter} alt="Twitter" className="social-icon" />
           </a>
