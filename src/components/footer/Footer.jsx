@@ -2,7 +2,7 @@ import "../../styles/Footer.css";
 import BottomFooter from "./BottomFooter/BottomFooter";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import logoJob from '../../assets/AQJ_Logo-workjob.png'
 function Footer() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -19,7 +19,7 @@ function Footer() {
     >
       {/* Logo en haut */}
       <div className="footer-logo">
-        <img src="src/assets/AQJ_Logo-workjob.png" alt="LogoJob" />
+        <img src={logoJob} alt="LogoJob" />
       </div>
 
       {/* Contenu principal en deux colonnes */}
