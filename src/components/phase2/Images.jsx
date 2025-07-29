@@ -16,6 +16,17 @@ import slide_image_5 from "../../assets/forum4.jpeg";
 import slide_image_6 from "../../assets/forum2.jpeg";
 
 function Images() {
+  const images = [
+    slide_image_1,
+    slide_image_2,
+    slide_image_3,
+    slide_image_4,
+    slide_image_5,
+    slide_image_6,
+  ];
+
+  const enableLoop = images.length > 1;
+
   return (
     <div className="container">
       <Swiper
@@ -23,7 +34,7 @@ function Images() {
         fadeEffect={{ crossFade: true }}
         grabCursor={true}
         centeredSlides={true}
-        loop={true}
+        loop={enableLoop}
         slidesPerView={1}
         pagination={{
           el: '.swiper-pagination',
@@ -37,24 +48,11 @@ function Images() {
         modules={[EffectFade, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
-        </SwiperSlide>
+        {images.map((img, index) => (
+          <SwiperSlide key={index}>
+            <img src={img} alt={`slide_image_${index + 1}`} />
+          </SwiperSlide>
+        ))}
 
         {/* Navigation + Pagination */}
         <div className="slider-controler">
