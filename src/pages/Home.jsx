@@ -12,15 +12,20 @@ import { useInView } from "react-intersection-observer";
 import { events } from '../variables/events'
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
+import img1 from '../assets/img1.jpeg'
+import img2 from '../assets/img2.jpeg'
+import img3 from '../assets/img3.jpeg'
+import forum2 from '../assets/forum2.jpeg'
+import forum4 from '../assets/forum4.jpeg'
+import forum7 from '../assets/forum7.jpeg'
 
 const images = [
-  '/src/assets/img1.jpeg',
-  '/src/assets/img2.jpeg',
-  '/src/assets/img3.jpeg',
-  '/src/assets/forum4.jpeg',
-  '/src/assets/forum2.jpeg',
-  '/src/assets/forum7.jpeg',
+  img1,
+  img2,
+  img3,
+  forum2,
+  forum4,
+  forum7,
 ]
 
 export default function Home() {
