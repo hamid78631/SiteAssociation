@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import prof1 from '../../../assets/blocPhoto/prof1.jpeg'
+import prof2 from '../../../assets/blocPhoto/prof2.jpeg'
+import prof3 from '../../../assets/blocPhoto/prof3.jpeg'
 
 
 function Compartiment() {
@@ -14,7 +17,7 @@ function Compartiment() {
         {
             id : 1 ,
             name : "Membre1",
-            image : 'src/assets/blocPhoto/prof2.jpeg',
+            image : {prof1},
             description :"Spécialiste des méthodologies d'apprentissage innovantes avec 15 ans d'expérience.", 
             contact : 'Membre1@partners.org',
             role: "Expert en Éducation",
@@ -22,7 +25,7 @@ function Compartiment() {
         {
             id : 2 ,
             name : "Membre2",
-            image : 'src/assets/blocPhoto/prof1.jpeg',
+            image : {prof2},
             description :"Spécialiste des méthodologies d'apprentissage innovantes avec 15 ans d'expérience.", 
             contact : 'Membre2@partners.org',
             role: "Expert en Éducation",
@@ -31,7 +34,7 @@ function Compartiment() {
         {
             id : 3 ,
             name : "Membre3",
-            image : 'src/assets/blocPhoto/prof3.jpeg',
+            image : {prof3},
             description :"Spécialiste des méthodologies d'apprentissage innovantes avec 15 ans d'expérience.", 
             contact : 'Membre3@partners.org',
             role: "Expert en Éducation",
@@ -44,7 +47,7 @@ function Compartiment() {
             id: 1,
             name: "Professeur 1",
             role: "Expert en Éducation",
-            image: 'src/assets/blocPhoto/prof1.jpeg',
+            image: {prof1},
             description: "Spécialiste des méthodologies d'apprentissage innovantes avec 15 ans d'expérience.",
             contact: "prof1@partners.org"
         },
@@ -52,7 +55,7 @@ function Compartiment() {
             id: 2,
             name: "Professeur 2",
             role: "Directeur de Recherche",
-            image: 'src/assets/blocPhoto/prof2.jpeg',
+            image: {prof2},
             description: "Pionnier dans les technologies éducatives et la recherche appliquée.",
             contact: "prof2@partners.org"
         },
@@ -60,7 +63,7 @@ function Compartiment() {
             id: 3,
             name: "Professeur 3",
             role: "Conseiller Pédagogique",
-            image: 'src/assets/blocPhoto/prof3.jpeg',
+            image: {prof3},
             description: "Spécialiste en développement des compétences et orientation professionnelle.",
             contact: "prof3@partners.org"
         }
