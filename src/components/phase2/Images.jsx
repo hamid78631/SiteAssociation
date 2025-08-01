@@ -16,14 +16,7 @@ import slide_image_6 from "../../assets/forum6.jpeg";
 import slide_image_7 from "../../assets/forum7.jpeg";
 
 function Images() {
-  // Logs pour vérifier les chemins d’images
-  console.log("slide_image_1:", slide_image_1);
-  console.log("slide_image_2:", slide_image_2);
-  console.log("slide_image_3:", slide_image_3);
-  console.log("slide_image_4:", slide_image_4);
-  console.log("slide_image_6:", slide_image_6);
-  console.log("slide_image_7:", slide_image_7);
-  console.log('Tout fonctionne comme prévu')
+
   return (
     <div className="container">
       <Swiper

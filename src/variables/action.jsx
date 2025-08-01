@@ -1,7 +1,32 @@
+import  Jeunes  from '../assets/Les Jeunes Débatent.png'
+import Debat from '../assets/Debate From Home.png'
+import TikiTaka from '../assets/Tiki Taka.png'
+import Jeunesse from '../assets/Forum Chances Pour Les Jeunes.png'
+import debat from '../assets/Débat.png'
+import Laureat from '../assets/Rencontre des Lauréats.png'
+import Africaine from '../assets/Modeles de l\'Union Africaine.png'
+import union from '../assets/Modeles de l\'Union Africaine.png'
+import Territoire from '../assets/Planification et Gestion Territorial.png'
+import Citoyen from '../assets/Participation Citoyenne Jeune.png'
+import Action from '../assets/MediAction.png'
+import Conseil from '../assets/Modèle du Conseil Régional.png'
+import yes from '../assets/Yes, YOU CAN.png'
+import Violence from '../assets/Libres de Violences en Égalité.png'
+import Democratie from '../assets/ToT Participation Démocratique.png'
+import Generation from '../assets/New Generation.png'
+import Journal from '../assets/Safe Journey.png'
+import C4 from '../assets/C4EE.png'
+import Emploi from '../assets/Jeunes, Participation, Emplois.png'
+import Bouche from '../assets/B@bouches.png'
+import Dapp from '../assets/Les Jeunes Débatent.png'
+import Employment from '../assets/Youth Inclusion & Employment.png'
+
+
+
 export const actions = [
   {
     id: 1,
-    image: "src/assets/Les Jeunes Débatent.png",
+    image: Jeunes,
     translations: {
       fr: {
         title: "Les Jeunes Débatent",
@@ -22,7 +47,7 @@ export const actions = [
   },
   {
     id: 2,
-    image: "src/assets/Debate From Home.png",
+    image: Debat,
     translations: {
       fr: {
         title: "Débate From Home",
@@ -43,7 +68,7 @@ export const actions = [
   },
   {
     id: 3,
-    image: "src/assets/Tiki Taka.png",
+    image: TikiTaka,
     translations: {
       fr: {
         title: "Tiki Taka",
@@ -64,7 +89,7 @@ export const actions = [
   },
   {
     id: 4,
-    image: "src/assets/Forum Chances Pour Les Jeunes.png",
+    image: Jeunesse,
     translations: {
       fr: {
         title: "Forum Chances Pour Les Jeunes",
@@ -85,7 +110,7 @@ export const actions = [
   },
   {
     id: 5,
-    image: "src/assets/Débat.png",
+    image: debat,
     translations: {
       fr: {
         title: "Débatفالقهوة",
@@ -106,7 +131,7 @@ export const actions = [
   },
   {
     id: 6,
-    image: "src/assets/Rencontre des Lauréats.png",
+    image: Laureat,
     translations: {
       fr: {
         title: "Rencontre des Lauréat(e)s",
@@ -127,7 +152,7 @@ export const actions = [
   },
   {
     id: 7,
-    image: "src/assets/Modeles de l'Union Africaine.png",
+    image: Africaine,
     translations: {
       fr: {
         title: "Modèle des Nations Unies",
@@ -148,7 +173,7 @@ export const actions = [
   },
   {
     id: 8,
-    image: "src/assets/Modele de l'Union Africaine.png",
+    image: union,
     translations: {
       fr: {
         title: "Modèle de l'Union Africaine",
@@ -167,30 +192,31 @@ export const actions = [
       }
     }
   },
-  {
-    id: 9,
-    image: "src/assets/Académie TAÂ'HIL.png",
-    translations: {
-      fr: {
-        title: "Académie TAÂ'HIL",
-        shortDesc: "Bootcamp intensif en gouvernance participative",
-        fullDesc: "Programme résidentiel de 3 semaines combinant cours théoriques et missions pratiques auprès d'institutions locales."
-      },
-      en: {
-        title: "TAÂ'HIL Academy",
-        shortDesc: "Intensive bootcamp in participatory governance",
-        fullDesc: "Three-week residential program combining theoretical courses and hands-on missions with local institutions."
-      },
-      ar: {
-        title: "أكاديمية تَأْهِيل",
-        shortDesc: "تكوين مكثف في الحوكمة التشاركية",
-        fullDesc: "برنامج إقامة لمدة 3 أسابيع يجمع بين دروس نظرية ومهام ميدانية داخل مؤسسات محلية."
-      }
-    }
-  },
+  // {
+  //   id: 9,
+  //   image: "src/assets/Académie TAÂ'HIL.png",
+  //   translations: {
+  //     fr: {
+  //       title: "Académie TAÂ'HIL",
+  //       shortDesc: "Bootcamp intensif en gouvernance participative",
+  //       fullDesc: "Programme résidentiel de 3 semaines combinant cours théoriques et missions pratiques auprès d'institutions locales."
+  //     },
+  //     en: {
+  //       title: "TAÂ'HIL Academy",
+  //       shortDesc: "Intensive bootcamp in participatory governance",
+  //       fullDesc: "Three-week residential program combining theoretical courses and hands-on missions with local institutions."
+  //     },
+  //     ar: {
+  //       title: "أكاديمية تَأْهِيل",
+  //       shortDesc: "تكوين مكثف في الحوكمة التشاركية",
+  //       fullDesc: "برنامج إقامة لمدة 3 أسابيع يجمع بين دروس نظرية ومهام ميدانية داخل مؤسسات محلية."
+  //     }
+  //   }
+  // },
+  
   {
     id: 10,
-    image: "src/assets/Planification et Gestion Territorial.png",
+    image: Territoire,
     translations: {
       fr: {
         title: "Planification et Gestion Territorial",
@@ -211,7 +237,7 @@ export const actions = [
   },
   {
     id: 11,
-    image: "src/assets/Participation Citoyenne Jeune.png",
+    image: Citoyen,
     translations: {
       fr: {
         title: "Participation Citoyenne Jeune",
@@ -232,7 +258,7 @@ export const actions = [
   },
   {
     id: 12,
-    image: "src/assets/MediAction.png",
+    image: Action,
     translations: {
       fr: {
         title: "MediAction",
@@ -253,7 +279,7 @@ export const actions = [
   },
   {
     id: 13,
-    image: "src/assets/Modèle du Conseil Régional.png",
+    image: Conseil,
     translations: {
       fr: {
         title: "Modèle du Conseil Régional",
@@ -274,7 +300,7 @@ export const actions = [
   },
   {
     id: 14,
-    image: "src/assets/Yes, YOU CAN.png",
+    image: yes,
     translations: {
       fr: {
         title: "Yes, YOU CAN",
@@ -295,7 +321,7 @@ export const actions = [
   },
   {
     id: 15,
-    image: "src/assets/Libres de Violences en Égalité.png",
+    image: Violence,
     translations: {
       fr: {
         title: "Libres de Violences en Égalité",
@@ -316,7 +342,7 @@ export const actions = [
   },
   {
     id: 16,
-    image: "src/assets/ToT Participation Démocratique.png",
+    image: Democratie,
     translations: {
       fr: {
         title: "ToT Participation Démocratique",
@@ -337,7 +363,7 @@ export const actions = [
   },
   {
     id: 17,
-    image: "src/assets/New Generation.png",
+    image: Generation,
     translations: {
       fr: {
         title: "New Generation",
@@ -358,7 +384,7 @@ export const actions = [
   },
   {
     id: 18,
-    image: "src/assets/Safe Journey.png",
+    image: Journal,
     translations: {
       fr: {
         title: "Safe Journey",
@@ -379,7 +405,7 @@ export const actions = [
   },
   {
     id: 19,
-    image: "src/assets/Jeunes, Participation, Emplois.png",
+    image: Emploi,
     translations: {
       fr: {
         title: "Jeunes, Participation, Emplois",
@@ -400,7 +426,7 @@ export const actions = [
   },
   {
     id: 20,
-    image: "src/assets/B@bouches.png",
+    image: Bouche,
     translations: {
       fr: {
         title: "B@bouches",
@@ -421,7 +447,7 @@ export const actions = [
   },
   {
     id: 21,
-    image: "src/assets/C4EE.png",
+    image: C4,
     translations: {
       fr: {
         title: "C4EE",
@@ -442,7 +468,7 @@ export const actions = [
   },
   {
     id: 22,
-    image: "src/assets/DAPP.png",
+    image: Dapp,
     translations: {
       fr: {
         title: "DAPP",
@@ -463,7 +489,7 @@ export const actions = [
   },
   {
     id: 23,
-    image: "src/assets/Youth Inclusion & Employment.png",
+    image: Employment,
     translations: {
       fr: {
         title: "Youth Inclusion & Employment",
@@ -481,27 +507,27 @@ export const actions = [
         fullDesc: "تشخيص فردي وحلول متكاملة تشمل تكوين في المهارات الناعمة والتقنية."
       }
     }
-  },
-
-  {
-    id: 24,
-    image: "src/assets/TAÂ'HILab.png",
-    translations: {
-      fr: {
-        title: "TAÂ'HILab",
-        shortDesc: "Living lab des politiques jeunesse",
-        fullDesc: "Espace expérimental pour co-designer avec les jeunes des solutions innovantes aux défis sociaux."
-      },
-      en: {
-        title: "TAÂ'HILab",
-        shortDesc: "Youth policy living lab",
-        fullDesc: "Experimental space to co-design innovative solutions to social challenges with youth."
-      },
-      ar: {
-        title: "مختبر تأهيل",
-        shortDesc: "مختبر حي لسياسات الشباب",
-        fullDesc: "فضاء تجريبي لتصميم حلول مبتكرة للتحديات الاجتماعية بالشراكة مع الشباب."
-      }
-    }
   }
-];
+
+//   {
+//     id: 24,
+//     image: "src/assets/TAÂ'HILab.png",
+//     translations: {
+//       fr: {
+//         title: "TAÂ'HILab",
+//         shortDesc: "Living lab des politiques jeunesse",
+//         fullDesc: "Espace expérimental pour co-designer avec les jeunes des solutions innovantes aux défis sociaux."
+//       },
+//       en: {
+//         title: "TAÂ'HILab",
+//         shortDesc: "Youth policy living lab",
+//         fullDesc: "Experimental space to co-design innovative solutions to social challenges with youth."
+//       },
+//       ar: {
+//         title: "مختبر تأهيل",
+//         shortDesc: "مختبر حي لسياسات الشباب",
+//         fullDesc: "فضاء تجريبي لتصميم حلول مبتكرة للتحديات الاجتماعية بالشراكة مع الشباب."
+//       }
+//     }
+//   }
+ ];
