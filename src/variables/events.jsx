@@ -1,8 +1,17 @@
+import maroc from "../assets/MarocanSaocialInnovationAwards.jpg"
+import Jeunes from "../assets/Jeunes Leaders.jpeg"
+import Concil from "../assets/Concil.jpg"
+import Anniversaire from "../assets/ImagesAnniversaire.png"
+import Agadir from "../assets/Agadir.jpg"
+import change from "../assets/Wechange.jpg"
+import Future from "../assets/OurFuture.jpg"
+
+
 export const events = [
   {
     id: 1,
     date: "2024-11-14T20:00:00",
-    img: "src/assets/MarocanSaocialInnovationAwards.jpg",
+    img: maroc,
     translations: {
       fr: {
         title: "Marocan Social Innovation Awards",
@@ -21,7 +30,7 @@ export const events = [
   {
     id: 2,
     date: "2025-05-01T20:00:00",
-    img: "src/assets/Jeunes Leaders.jpeg",
+    img: Jeunes,
     translations: {
       fr: {
         title: "Cycle de Formation 'JEUNES LEADERS'",
@@ -40,7 +49,7 @@ export const events = [
   {
     id: 3,
     date: "2025-03-25T20:00:00",
-    img: "src/assets/Concil.jpg",
+    img: Concil,
     translations: {
       fr: {
         title: "Clôture du Séminaire national distingué",
@@ -59,7 +68,7 @@ export const events = [
   {
     id: 4,
     date: "2025-05-25T20:00:00",
-    img: "src/assets/ImagesAnniversaire.png",
+    img: Anniversaire,
     translations: {
       fr: {
         title: "Anniversaire de Création de l'Association",
@@ -78,7 +87,7 @@ export const events = [
   {
     id: 5,
     date: "2025-01-18T20:00:00",
-    img: "src/assets/Agadir.jpg",
+    img: Agadir,
     translations: {
       fr: {
         title: "Atelier : 'la Gouvernance Interne des Associations'",
@@ -97,7 +106,7 @@ export const events = [
   {
     id: 6,
     date: "2024-12-04T20:00:00",
-    img: "src/assets/Wechange.jpg",
+    img: change,
     translations: {
       fr: {
         title: "IIIème WExchange forum & IIèmes MSIA",
@@ -116,7 +125,7 @@ export const events = [
   {
     id: 7,
     date: "2025-04-10T20:00:00",
-    img: "src/assets/OurFuture.jpg",
+    img: Future,
     translations: {
       fr: {
         title: "Projet : NOTRE AVENIR ▶️",
