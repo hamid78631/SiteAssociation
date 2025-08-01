@@ -103,25 +103,25 @@ export const events = [
       }
     }
   },
-  {
-    id: 6,
-    date: "2024-12-04T20:00:00",
-    img: change,
-    translations: {
-      fr: {
-        title: "IIIème WExchange forum & IIèmes MSIA",
-        description: "Nous étions honorés de répondre présents à l'invitation de la Fondation Abdelkader Bensalah pour participer à la 3ème édition du Forum WExchange et la 2ème édition des MSIA."
-      },
-      en: {
-        title: "3rd WExchange Forum & 2nd MSIA",
-        description: "We were honored to attend the 3rd edition of the WExchange Forum and the 2nd edition of the MSIA, organized by the Abdelkader Bensalah Foundation."
-      },
-      ar: {
-        title: "المنتدى الثالث WExchange والنسخة الثانية من MSIA",
-        description: "تشرفنا بحضور النسخة الثالثة من منتدى WExchange والنسخة الثانية من جوائز MSIA بتنظيم من مؤسسة عبد القادر بن صالح."
-      }
-    }
-  },
+  // {
+  //   id: 6,
+  //   date: "2024-12-04T20:00:00",
+  //   img: change,
+  //   translations: {
+  //     fr: {
+  //       title: "IIIème WExchange forum & IIèmes MSIA",
+  //       description: "Nous étions honorés de répondre présents à l'invitation de la Fondation Abdelkader Bensalah pour participer à la 3ème édition du Forum WExchange et la 2ème édition des MSIA."
+  //     },
+  //     en: {
+  //       title: "3rd WExchange Forum & 2nd MSIA",
+  //       description: "We were honored to attend the 3rd edition of the WExchange Forum and the 2nd edition of the MSIA, organized by the Abdelkader Bensalah Foundation."
+  //     },
+  //     ar: {
+  //       title: "المنتدى الثالث WExchange والنسخة الثانية من MSIA",
+  //       description: "تشرفنا بحضور النسخة الثالثة من منتدى WExchange والنسخة الثانية من جوائز MSIA بتنظيم من مؤسسة عبد القادر بن صالح."
+  //     }
+  //   }
+  // },
   {
     id: 7,
     date: "2025-04-10T20:00:00",
